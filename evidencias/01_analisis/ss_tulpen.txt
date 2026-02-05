@@ -1,0 +1,17 @@
+Netid State  Recv-Q Send-Q        Local Address:Port  Peer Address:PortProcess                                                                  
+udp   UNCONN 0      0                 127.0.0.1:8125       0.0.0.0:*    uid:987 ino:12708 sk:e cgroup:/system.slice/netdata.service <->         
+udp   UNCONN 0      0                127.0.0.54:53         0.0.0.0:*    uid:992 ino:7379 sk:f cgroup:/system.slice/systemd-resolved.service <-> 
+udp   UNCONN 0      0             127.0.0.53%lo:53         0.0.0.0:*    uid:992 ino:7377 sk:10 cgroup:/system.slice/systemd-resolved.service <->
+udp   UNCONN 0      0      192.168.1.109%enp0s3:68         0.0.0.0:*    uid:998 ino:8893 sk:11 cgroup:/system.slice/systemd-networkd.service <->
+tcp   LISTEN 0      4096                0.0.0.0:5432       0.0.0.0:*    ino:12596 sk:1 cgroup:/system.slice/docker.service <->                  
+tcp   LISTEN 0      128               127.0.0.1:4317       0.0.0.0:*    uid:987 ino:13349 sk:2 cgroup:/system.slice/netdata.service <->         
+tcp   LISTEN 0      4096                0.0.0.0:8069       0.0.0.0:*    ino:12616 sk:3 cgroup:/system.slice/docker.service <->                  
+tcp   LISTEN 0      4096              127.0.0.1:8125       0.0.0.0:*    uid:987 ino:12709 sk:4 cgroup:/system.slice/netdata.service <->         
+tcp   LISTEN 0      4096          127.0.0.53%lo:53         0.0.0.0:*    uid:992 ino:7378 sk:5 cgroup:/system.slice/systemd-resolved.service <-> 
+tcp   LISTEN 0      4096                0.0.0.0:22         0.0.0.0:*    ino:8497 sk:6 cgroup:/system.slice/ssh.socket <->                       
+tcp   LISTEN 0      4096                0.0.0.0:19999      0.0.0.0:*    ino:7770 sk:7 cgroup:/system.slice/netdata.service <->                  
+tcp   LISTEN 0      4096             127.0.0.54:53         0.0.0.0:*    uid:992 ino:7380 sk:8 cgroup:/system.slice/systemd-resolved.service <-> 
+tcp   LISTEN 0      4096                   [::]:5432          [::]:*    ino:12597 sk:12 cgroup:/system.slice/docker.service v6only:1 <->        
+tcp   LISTEN 0      4096                   [::]:8069          [::]:*    ino:12617 sk:13 cgroup:/system.slice/docker.service v6only:1 <->        
+tcp   LISTEN 0      4096                   [::]:22            [::]:*    ino:8499 sk:14 cgroup:/system.slice/ssh.socket v6only:1 <->             
+tcp   LISTEN 0      4096                   [::]:19999         [::]:*    ino:7771 sk:15 cgroup:/system.slice/netdata.service v6only:1 <->        
