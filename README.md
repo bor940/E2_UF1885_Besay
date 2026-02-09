@@ -35,11 +35,19 @@
 
 ## 3. Resolución de una incidencia técnica simulada
 ### 3.1 Síntomas
+  -los usuarios no pueden acceder al CRM
+  -la url del servicio no respnde
 ### 3.2 Diagnóstico
+  -verificar el estado de los contenedores (docker ps)
+  -el cntenedor odoo-dev no seencuentra en ejecucion
 ### 3.3 Acción aplicada
+  -se procede a restableer el servicio de contenedor, arrancando nuevamente
+  -**sudo docker start odoo-dev**
 ### 3.4 Verificación
+  -verificar estado del contenedor
+  -**sudo docker ps**
 ### 3.5 Rollback
-
+  -en esta situacion consiste en arrancar el contenedor como se inicia en la situacion anterior
 ---
 
 ## 4. Simulación de saturación del sistema (CPU o Memoria)
